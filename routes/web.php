@@ -7,7 +7,7 @@ use App\Http\Controllers\MateriaController;
 use App\Http\Controllers\NotaController;
 
 Route::get('/', function () {
-    return redirect()->route('estudiantes.index');
+    return redirect()->route('materias.index');
 });
 
 Route::resource('estudiantes', EstudianteController::class);
