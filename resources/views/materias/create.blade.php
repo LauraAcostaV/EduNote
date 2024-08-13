@@ -12,6 +12,6 @@
         <label for="descripcion">Descripción:</label>
         <input type="text" name="descripcion" id="descripcion">
 
-        <button type="submit">Guardar</button>
+        <button type="submit" class="btn btn-primary">Guardar</button>
     </form>
 @endsection

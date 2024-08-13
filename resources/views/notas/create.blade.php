@@ -23,6 +23,6 @@
         <label for="calificacion">Calificación:</label>
         <input type="number" name="calificacion" id="calificacion" step="0.01" required>
 
-        <button type="submit">Guardar</button>
+        <button type="submit" class="btn btn-primary">Guardar</button>
     </form>
 @endsection
