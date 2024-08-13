@@ -21,7 +21,7 @@
         </select>
 
         <label for="calificacion">Calificación:</label>
-        <input type="number" name="calificacion" id="calificacion" step="0.01" required>
+        <input type="number" name="calificacion" id="calificacion" step="0.1" required>
 
         <button type="submit" class="btn btn-primary">Guardar</button>
     </form>
